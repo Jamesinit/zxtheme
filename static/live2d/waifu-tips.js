@@ -38,7 +38,7 @@ const live2d_settings = {
     'canTurnToAboutPage': false,                 // 显示 跳转关于页 按钮
     'showVolumeBtn': false,                     // 显示 音量控制 按钮，仅作显示，相关逻辑需自己实现
     // 提示消息设置
-    'showHitokoto': true,                       // 空闲时显示一言
+    'showHitokoto': false,                       // 空闲时显示一言
     'hitokotoAPI': 'lwl12.com',                          // 一言 API，可选 'hitokoto.cn'(默认), 'lwl12.com', 'jinrishici.com'(古诗词), 'fghrsh.net'
     'showWelcomeMessage': true,                 // 显示进入页面欢迎词
     'showCopyMessage': true,                    // 显示复制内容提示，默认只对 '#articleContent' 元素内的复制进行监视，如果你的文章内容不在这个标签下，可以在下方搜索并修改
