@@ -51,7 +51,7 @@ const live2d_settings = {
     // 其他杂项设置
     'debug': false,                              // 全局 DEBUG 设置
     'debugMousemove': false,                    // 在控制台打印指针移动坐标，仅在 debug 为 true 时可用
-    'logMessageToConsole': flase,                // 在控制台打印看板娘提示消息
+    'logMessageToConsole': false,                // 在控制台打印看板娘提示消息
     'l2dVersion': '2.0.0',                      // 当前版本
     'homePageUrl': 'auto',  // 主页地址，可选 'auto'(自动), '{URL 网址}'
     'aboutPageUrl': 'https://github.com/Konata09/Live2dOnWeb/', // 关于页地址, '{URL 网址}'
