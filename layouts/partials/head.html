@@ -15,8 +15,10 @@
             script2.src = '{{ "live2d/waifu-tips.js" | relURL }}';
             script2.type = 'module'; // Assuming waifu-tips.js requires module type
             document.body.appendChild(script2);
-        }, 1500); // 延时 ms
+        }, 200); // 延时 ms
     </script>
+    {{ else }}
+    <script async type="module" src="{{ "live2d/waifu-tips.js" | relURL }}" ></script>
 {{ end }}
 
 

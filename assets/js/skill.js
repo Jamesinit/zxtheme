@@ -24,6 +24,7 @@ const categories = [
             { name: 'DevOps', percentage: '70%' },
             { name: 'K8s', percentage: '50%' },
             { name: 'Git', percentage: '80%' },
+            { name: 'Nginx', percentage: '70%' },
         ]
     },
     

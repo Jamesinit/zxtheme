@@ -36,8 +36,8 @@
     background-color: rgb(19, 117, 124);
     border-radius: 10px;
     position: relative;
-    transition: width 1.5s; /* 仅对width属性应用动画 */
-    animation: loadProgress 2s forwards; /* 应用动画 */
+    transition: width 0.1s; /* 仅对width属性应用动画 */
+    animation: loadProgress 0.5s forwards; /* 应用动画 */
   }
   
   .progress-bar span {
