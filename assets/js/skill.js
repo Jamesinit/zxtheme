@@ -21,7 +21,7 @@ const categories = [
             { name: '3D-SolidWorks', percentage: '60%' },
             { name: 'PCB-Disign', percentage: '60%' },
             { name: 'Docker', percentage: '80%' },
-            { name: 'DevOps', percentage: '70%' },
+            { name: 'CI/CD', percentage: '70%' },
             { name: 'K8s', percentage: '50%' },
             { name: 'Git', percentage: '80%' },
             { name: 'Nginx', percentage: '70%' },
