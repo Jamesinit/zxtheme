@@ -1,3 +1,13 @@
 {{ define "main" }}
-{{ .Content }}
+
+<div class="content_container">
+    <div class="content_md">
+    {{ .Content }}
+    </div>
+    <div class="my_skills">
+    </div>
+</div>
+{{ $skills_js:= resources.Get "js/skill.js" }}
+<script src="{{$skills_js.RelPermalink}}"></script>
+
 {{ end }}

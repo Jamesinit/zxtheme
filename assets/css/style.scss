@@ -1,0 +1,48 @@
+/* 对所有图片应用相同的样式 */
+.main_container {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column; /* 设置主轴方向为竖直方向 */
+}
+.main_container > div {
+    align-self: stretch; /* 子 div 拉伸填满父容器的高度 */
+}
+nav,footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+nav > a {
+    flex: 1;
+    text-align: center;
+    color: #fff;
+    font-size: 30px; /* 例如设置字体大小为16像素 */
+}
+
+
+@media only screen and (min-width:768px) {
+    nav{
+        flex-direction: row;
+    }
+    
+}
+
+img { 
+    width: 50%;
+}
+
+.content_container{
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+}
+
+@import 'skill';

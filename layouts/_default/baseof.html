@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   {{- partial "head.html" . -}}
+
   <div id="waifu">
     <div id="waifu-message"></div>
     <div class="waifu-tool">
@@ -17,10 +18,9 @@
     <canvas id="live2d4"></canvas>
   </div>
   <body>
-    <div class="container">
-      {{- partial "header.html" . -}}
-      <main>{{- block "main" . }}{{- end }}</main>
-      {{- partial "footer.html" . -}}
+    <div class="main_container">
+      {{- partial "header.html" . -}} {{- block "main" . }}{{- end }} {{-
+      partial "footer.html" . -}}
     </div>
   </body>
 </html>

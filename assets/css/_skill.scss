@@ -1,0 +1,56 @@
+.my_skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* 允许内容自动换行 */
+    justify-content: flex-start; /* 从左向右对齐 */
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .box {
+    flex: 1 1 calc(30% - 20px); /* 响应式宽度，减去间距 */
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+    color: #fff;
+    border-radius: 9px;
+    margin: 10px; /* 确保盒子之间有间距 */
+  }
+  
+  .box h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .progress {
+    width: 100%;
+    background-color: rgb(56, 49, 49);
+    border-radius: 10px;
+    margin: 18px 0;
+    height: 25px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    width: 0%;
+    background-color: rgb(19, 117, 124);
+    border-radius: 10px;
+    position: relative;
+    transition: width 1.5s; /* 仅对width属性应用动画 */
+    animation: loadProgress 2s forwards; /* 应用动画 */
+  }
+  
+  .progress-bar span {
+    position: absolute;
+    top: 50%;
+    right: 10px; /* 调整右边距 */
+    transform: translateY(-50%); /* 垂直居中 */
+    color: #fff;
+  }
+  
+  @keyframes loadProgress {
+    to {
+      width: var(--progress-width); /* 动画到最终宽度 */
+    }
+  }
+  

@@ -30,7 +30,7 @@ const live2d_settings = {
                                                 // 启用后将优先加载 klee.8192/texture_00.png.webp，文件不存在会自动 fallback
     // 工具栏设置
     'showToolMenu': true,                       // 显示 工具栏
-    'canCloseLive2d': false,                     // 显示 关闭看板娘 按钮
+    'canCloseLive2d': true,                     // 显示 关闭看板娘 按钮
     'canSwitchModel': true,                     // 显示 模型切换 按钮
     'canSwitchHitokoto': true,                  // 显示 一言切换 按钮
     'canTakeScreenshot': true,                  // 显示 看板娘截图 按钮
@@ -46,8 +46,8 @@ const live2d_settings = {
     //看板娘样式设置
     'live2dHeight': 680,                        // 看板娘高度，不需要单位
     'live2dWidth': 500,                         // 看板娘宽度，不需要单位
-    'waifuMinWidth': '1040px',                 // 页面小于宽度小于指定数值时隐藏看板娘，例如 'disable'(禁用)，推荐 '1040px'
-    'waifuEdgeSide': 'right:10',                 // 看板娘贴边方向，例如 'left:0'(靠左 0px)，'right:30'(靠右 30px)，可以被下面的模型设置覆盖
+    'waifuMinWidth': '800px',                 // 页面小于宽度小于指定数值时隐藏看板娘，例如 'disable'(禁用)，推荐 '1040px'
+    'waifuEdgeSide': 'right:0',                 // 看板娘贴边方向，例如 'left:0'(靠左 0px)，'right:30'(靠右 30px)，可以被下面的模型设置覆盖
     // 其他杂项设置
     'debug': false,                              // 全局 DEBUG 设置
     'debugMousemove': false,                    // 在控制台打印指针移动坐标，仅在 debug 为 true 时可用
